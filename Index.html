@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shop Mario - Botërore për Fëmijë</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --soft-blue: #a2d2ff; --soft-pink: #ffafcc; --dark-text: #495057; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; color: var(--dark-text); background-color: #fdfcfc; }
+        
+        header { background: white; padding: 15px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .logo { font-size: 24px; font-weight: bold; color: #bde0fe; text-transform: uppercase; letter-spacing: 2px; }
+        
+        .hero { background: linear-gradient(rgba(162, 210, 255, 0.2), rgba(255, 175, 204, 0.2)); 
+                padding: 40px 20px; text-align: center; }
+        .hero h1 { margin: 0; color: #555; }
+        
+        .contact-bar { display: flex; justify-content: center; gap: 20px; padding: 15px; background: #fff; border-bottom: 1px solid #eee; }
+        .contact-link { text-decoration: none; color: #555; font-size: 14px; display: flex; align-items: center; gap: 5px; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding: 20px; max-width: 1200px; margin: auto; }
+        .product-card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: center; transition: 0.3s; }
+        .product-card:hover { transform: translateY(-5px); }
+        .product-card img { width: 100%; height: 250px; object-fit: cover; }
+        .product-card h3 { margin: 15px 0 5px; font-size: 18px; }
+        
+        .cta-button { display: block; background: #25d366; color: white; padding: 12px; text-decoration: none; border-radius: 0 0 15px 15px; font-weight: bold; }
+        
+        .insta-btn { display: inline-block; background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); 
+                     color: white; padding: 10px 20px; border-radius: 20px; text-decoration: none; margin-top: 20px; font-weight: bold; }
+
+        footer { background: #f8f9fa; padding: 30px; text-align: center; border-top: 1px solid #eee; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">✨ Baby Shop Mario ✨</div>
+</header>
+
+<div class="contact-bar">
+    <a href="tel:+355695273777" class="contact-link"><i class="fas fa-phone"></i> 069 527 3777</a>
+    <a href="https://www.instagram.com/babyshopmario" class="contact-link"><i class="fab fa-instagram"></i> @babyshopmario</a>
+</div>
+
+<section class="hero">
+    <h1>Gjithçka që i duhet bebit tuaj</h1>
+    <p>Nga karrocat te dhomat e gjumit, cilësia që meritoni.</p>
+    <a href="https://www.instagram.com/babyshopmario" class="insta-btn">Na ndiqni në Instagram</a>
+</section>
+
+<div class="grid">
+    <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1544126592-807daa2b565b?w=500" alt="Karroca">
+        <h3>Karroca Moderne</h3>
+        <p>Siguri dhe stil për shëtitjet tuaja.</p>
+        <a href="https://wa.me/355683322255?text=Përshëndetje! Dua informacion
